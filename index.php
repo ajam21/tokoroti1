@@ -48,32 +48,32 @@
     <section id="menu">
         <h2>MENU</h2>
         <div class="container">
-            <div class="card" onclick="openModal('Roti', 'Rp 500,000', 'Azzam.jpeg', 'page/formorder1.html')">
+            <div class="card" onclick="openModal('Roti', 'Rp 500,000', 'Azzam.jpeg', 'page/formorder1.php')">
                 <img alt="Roti0" height="200" src="Azzam.jpeg" width="200"/>
                 <h3>Roti</h3>
                 <p>Mulai dari Rp 500,000</p>
             </div>
-            <div class="card" onclick="openModal('Roti 1', 'Rp 350,000', 'Azzam.jpeg', 'page/formorder1.html?product=Roti%201')">
+            <div class="card" onclick="openModal('Roti 1', 'Rp 350,000', 'Azzam.jpeg', 'page/formorder1.php?product=Roti%201')">
                 <img alt="Roti1" height="200" src="Azzam.jpeg" width="200"/>
                 <h3>Roti 1</h3>
                 <p>Mulai dari Rp 350,000</p>
             </div>
-            <div class="card" onclick="openModal('Roti 2', 'Rp 200,000', 'Azzam.jpeg', 'page/formorder1.html?product=Roti%201')">
+            <div class="card" onclick="openModal('Roti 2', 'Rp 200,000', 'Azzam.jpeg', 'page/formorder1.php?product=Roti%201')">
                 <img alt="Roti2" height="200" src="Azzam.jpeg" width="200"/>
                 <h3>Roti 2</h3>
                 <p>Mulai dari Rp 200,000</p>
             </div>
-            <div class="card" onclick="openModal('Roti 3', 'Rp 150,000', 'Azzam.jpeg', 'page/formorder1.html?product=Roti%201')">
+            <div class="card" onclick="openModal('Roti 3', 'Rp 150,000', 'Azzam.jpeg', 'page/formorder1.php?product=Roti%201')">
                 <img alt="roti3" height="200" src="Azzam.jpeg" width="200"/>
                 <h3>Roti 3</h3>
                 <p>Mulai dari Rp 150,000</p>
             </div>
-            <div class="card" onclick="openModal('Roti 4', 'Rp 500,000', 'Azzam.jpeg', 'page/formorder1.html?product=Roti%201')">
+            <div class="card" onclick="openModal('Roti 4', 'Rp 500,000', 'Azzam.jpeg', 'page/formorder1.php?product=Roti%201')">
                 <img alt="roti4" height="200" src="Azzam.jpeg" width="200"/>
                 <h3>Roti 4</h3>
                 <p>Mulai dari Rp 500,000</p>
             </div>
-            <div class="card" onclick="openModal('Roti 5', 'Rp 300,000', 'Azzam.jpeg', 'page/formorder1.html?product=Roti%201')">
+            <div class="card" onclick="openModal('Roti 5', 'Rp 300,000', 'Azzam.jpeg', 'page/formorder1.php?product=Roti%201')">
                 <img alt="roti5" height="200" src="Azzam.jpeg" width="200"/>
                 <h3>Roti 5</h3>
                 <p>Mulai dari Rp 300,000</p>
