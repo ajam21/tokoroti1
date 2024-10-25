@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px; /* Lebar maksimum kontainer */
+    margin: auto; /* Pusatkan kontainer */
+    padding: 20px; /* Padding di dalam kontainer */
+    background-color: #fff; /* Warna latar belakang kontainer */
+    border-radius: 8px; /* Sudut yang melengkung */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+h2 {
+    text-align: center; /* Pusatkan judul */
+    color: #4CAF50; /* Warna judul */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Jarak antar grup form */
+}
+
+label {
+    display: block; /* Membuat label tampil sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah label */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%; /* Lebar penuh untuk input */
+    padding: 10px; /* Padding di dalam input */
+    border: 1px solid #ccc; /* Garis tepi */
+    border-radius: 4px; /* Sudut input yang melengkung */
+    box-sizing: border-box; /* Termasuk padding dan border dalam ukuran total */
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Jarak kanan untuk radio button */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Tanpa garis tepi */
+    cursor: pointer; /* Kursor saat hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Warna saat hover */
+}
+
+input[type="text"]#nama {
+    height: 50px; /* Tinggi untuk field nama */
+    font-size: 16px;
+}

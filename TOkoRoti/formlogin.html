@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form - Toko Roti Mama Azzam</title>
+</head>
+<body>
+    <h2>Order Form</h2>
+    <form action="process_order.php" method="POST">
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah" required><br><br>
+
+        <label for="rasa">Pilih Rasa:</label><br>
+        <input type="radio" id="coklat" name="rasa" value="Coklat" required>
+        <label for="coklat">Coklat</label><br>
+        <input type="radio" id="keju" name="rasa" value="Keju">
+        <label for="keju">Keju</label><br>
+        <input type="radio" id="kacang" name="rasa" value="Kacang">
+        <label for="kacang">Kacang</label><br><br>
+
+        <input type="submit" value="Pesan Sekarang">
+    </form>
+</body>
+</html>
